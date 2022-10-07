@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+
+    background-image: linear-gradient(rgb(103, 101, 101), rgb(11, 24, 52));
+    height: 200px;
+}
