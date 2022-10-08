@@ -16,16 +16,97 @@ body{
 header{
     min-height: 100px;
 }
+/* generalizzazione tag a */
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* stile dei bottoni superiori  */
 
 .button-area{
     text-align: right;
+    margin-bottom: 50px;
    
 }
-.button-area a{
+.btn{
     background-color: grey;
-    color: white;
+
+    
+}
+
+.btn-grey{  
     padding:10px;
-    text-decoration: none;
     border-radius: 5px;
 
+}
+
+.btn-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0px;
+}
+
+/* main con le cards */
+
+.main-area{
+    max-width: 1400px;
+    margin: 0 auto;
+
+    /* flex */
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.card{
+    width: calc((100% / 7) - 10px);
+    position: relative;
+}
+
+.card img{
+    width: 100%;
+}
+
+footer{
+    margin-top: 50px;
+
+    background-color: rgb(51, 51, 51);
+}
+
+
+.control-area{
+    font-size: 30px;
+    height: 100px;
+
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control-area a{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.end-session{
+    background-color: grey;
+    height: 100px;
+    align-content: center;
+
+}
+
+
+#end{
+    
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    
+    align-content: center;
 }
