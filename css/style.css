@@ -1,11 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
 
-    background-image: linear-gradient(rgb(103, 101, 101), rgb(11, 24, 52));
-    height: 200px;
+body{
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+
+
+}
+header{
+    min-height: 100px;
+}
+
+.button-area{
+    text-align: right;
+   
+}
+.button-area a{
+    background-color: grey;
+    color: white;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 5px;
+
 }
